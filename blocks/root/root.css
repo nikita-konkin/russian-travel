@@ -1,0 +1,10 @@
+.root{
+  min-width: 320px;
+  /*max-width: 1600px;*/
+
+  background: #2A2C2F;
+
+  margin: auto;
+
+  /*font-family: 'Helvetica Neue', Arial, sans-serif;*/
+}
