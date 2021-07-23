@@ -1,0 +1,12 @@
+.place{
+	display: grid;
+	grid-template-columns: auto min-content;
+	grid-template-rows: auto auto 1fr;
+	grid-column-gap: 40px;
+/*	grid-template-areas: 
+	".place__title .place__website"
+	".place__image .place__paragraph"
+	".place__image .place__paragraph"
+	".place__image .place__paragraph";*/
+
+}
