@@ -1,0 +1,13 @@
+.lang-link_language_ru{
+	margin: 18px 18px 6px 0;
+	padding: 0;
+	border: none;
+	background: #2A2C2F;
+	/*text-decoration: underline;*/
+
+}
+
+.lang-link_language_ru:enabled{
+	text-decoration: underline;
+}
+

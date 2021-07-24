@@ -14,9 +14,9 @@
 
 		<header class="header">
 			<img src="images/header-logo.svg" alt="логотип Россия" class="header__logo">
-			<div class="header__lang-link lang-link_theme_dark">
-				<p class="lang-link_ru">Ru</p>
-				<p class="lang-link_en">En</p>
+			<div class="header__lang-link">
+				<button class="lang-link_language_ru lang-link_theme_dark">Ru</button>
+				<button class="lang-link_language_en lang-link_theme_dark">En</button>
 			</div>
 		</header>
 
@@ -121,26 +121,29 @@
 			</section>
 
 			<section class="cover">
-				<div class="cover__background"></div>
-				<div class="cover__overlay"></div>				
-				<h2 class="cover__title">До Байкала «на собаках»</h2>
-				<p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+				
+				<div class="cover__background">
+					<div class="cover__overlay">
+						<h2 class="cover__title"><a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__title-link title-link_theme_dark">До Байкала «на собаках»</a></h2>
+						<p class="cover__subtitle subtitle_theme_dark">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+					</div>
+				</div>
 			</section>
 
 		</main>
 
 		<footer class="footer">
 			<nav class="footer__nav">
-				<ul>
-					<li>Карты</li>
-					<li>Погода</li>
-					<li>Расписание</li>
-					<li>Календарь</li>
-					<li>Путешествия</li>
+				<ul class="footer__nav-links">
+					<li><a href="#" class="footer__nav-link nav-link_theme_dark">Карты</a></li>
+					<li><a href="#" class="footer__nav-link nav-link_theme_dark">Погода</a></li>
+					<li><a href="#" class="footer__nav-link nav-link_theme_dark">Расписание</a></li>
+					<li><a href="#" class="footer__nav-link nav-link_theme_dark">Календарь</a></li>
+					<li><a href="#" class="footer__nav-link nav-link_theme_dark">Путешествия</a></li>
 				</ul>
 			</nav>
 
-			<p class="footer_copyright">© 2020. Впишите своё имя</p>
+			<p class="footer__copyright copyright_theme_dark">© 2020. Впишите своё имя</p>
 		</footer>
 
 	</div>

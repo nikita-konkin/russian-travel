@@ -1,0 +1,18 @@
+.footer__nav-link{
+	margin: 0;
+
+	text-decoration: none;
+	color: black;
+	width: 50px;
+
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 18px;
+
+	transition: .5s ease;
+}
+
+.footer__nav-link:hover{
+	opacity: 0.8;
+}
