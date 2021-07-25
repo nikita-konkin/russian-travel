@@ -8,3 +8,11 @@
 
 	text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+	.lead__title{
+		width: clamp(288px, 90vw, 720px);
+		font-size: clamp(40px, 13vw, 96px);
+		line-height: clamp(44px, 13vw, 100px);
+	}
+}

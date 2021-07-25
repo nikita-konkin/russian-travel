@@ -1,5 +1,13 @@
 .header__logo{
+	margin-top: 28px;
+	max-width: 176px;
+	max-height: 52px;
+}
 
-	width: 176px;
-	height: 52px;
+@media screen and (max-width: 768px) {
+	.header__logo{
+		margin-top: clamp(18px, 5%, 28px);
+		width: clamp(142px, 50%, 176px);
+		height: clamp(42px, 50%, 52px);
+	}
 }

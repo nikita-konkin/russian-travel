@@ -9,3 +9,9 @@
 	font-size: 16px;
 	line-height: 163%;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+	.intro__text{
+		width:  clamp(720px, 11vw, 690px);
+	}
+}
