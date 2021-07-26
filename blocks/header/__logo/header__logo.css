@@ -11,3 +11,14 @@
 		height: clamp(42px, 50%, 52px);
 	}
 }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+	.header__logo{
+		margin-top: clamp(16px, 5vw, 18px);
+	}
+}
+@media screen and (max-width: 320px){
+	.header__logo{
+		width: clamp(102px, 50%, 142px);
+		height: clamp(2px, 50%, 42px);
+	}
+}

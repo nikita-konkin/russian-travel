@@ -1,6 +1,10 @@
 .cover__title-link{
 	margin: 0;
 	text-decoration: none;
-
 }
 
+@media screen and (min-width: 320px) and (max-width: 767px){
+	.cover__title-link{
+		max-width: clamp(288px, 88vw, 560px);
+	}
+}

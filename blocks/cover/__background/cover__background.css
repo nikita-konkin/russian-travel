@@ -25,3 +25,17 @@
 		height: clamp(480px, 60vw, 640px);
 	}
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+	.cover__background{
+		width: clamp(320px, 99vw, 768px);
+		height: clamp(200px, 60vw, 480px);
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.cover__background{
+		width: clamp(0px, 99vw, 320px);
+		height: clamp(0px, 60vw, 200px);
+	}
+}

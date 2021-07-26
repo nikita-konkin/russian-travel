@@ -7,3 +7,16 @@
 	grid-template-columns: repeat(5, min-content);
 	column-gap: 18px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+	.footer__nav-links{
+		grid-template-columns: repeat(1, min-content);
+		grid-row-gap: 32px;
+	}
+}
+@media screen and (max-width: 320px){
+	.footer__nav-links{
+		grid-template-columns: repeat(1, min-content);
+		grid-row-gap: 32px;
+	}
+}

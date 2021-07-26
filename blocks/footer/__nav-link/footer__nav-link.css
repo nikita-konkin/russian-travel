@@ -16,3 +16,10 @@
 .footer__nav-link:hover{
 	opacity: 0.8;
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+	.footer__nav-link{
+		font-size: clamp(24px, 4vw, 16px);
+		line-height: clamp(24px, 5vw, 18px);
+	}
+}
