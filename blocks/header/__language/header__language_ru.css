@@ -1,4 +1,4 @@
-.header__lang-link_language_ru{
+.header__language_ru{
 	margin: 46px 18px 0px 0;
 	padding: 0;
 	border: none;
@@ -15,23 +15,23 @@
 
 }
 
-.header__lang-link_language_ru:enabled{
+.header__language_ru:enabled{
 	text-decoration: underline;
 }
 
 @media screen and (max-width: 768px) {
-	.header__lang-link_language_ru{
+	.header__language_ru{
 		font-size: clamp(18px, 5vw, 24px);
 	}
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
-	.header__lang-link_language_ru{
+	.header__language_ru{
 		line-height: clamp(20px, 5vw, 28px);
 		margin-top: clamp(30px, 9vw, 46px);
 	}
 }
 @media screen and (max-width: 320px){
-	.header__lang-link_language_ru{
+	.header__language_ru{
 		line-height: 20px;
 		margin-top: 30px;
 	}

@@ -1,4 +1,4 @@
-.header__lang-link_language_en{
+.header__language_en{
 	margin: 46px 0 0px 0;
 	padding: 0;
 	border: none;
@@ -13,28 +13,28 @@
 	line-height: 28px;
 }
 
-.header__lang-link_language_en:focus{
+.header__language_en:focus{
 	text-decoration: underline;
 }
 
-.header__lang-link_language_en:focus + .lang-link_language_ru{
+.header__language_en:focus + .header__language_ru{
 	text-decoration: none;
 }
 
 @media screen and (max-width: 768px) {
-	.header__lang-link_language_en{
+	.header__language_en{
 		font-size: clamp(18px, 5vw, 24px);
 	}
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
-	.header__lang-link_language_en{
+	.header__language_en{
 		line-height: clamp(20px, 5vw, 28px);
 		margin-top: clamp(30px, 9vw, 46px);
 	}
 }
 
 @media screen and (max-width: 320px){
-	.header__lang-link_language_en{
+	.header__language_en{
 		line-height: 20px;
 		margin-top: 30px;
 	}
