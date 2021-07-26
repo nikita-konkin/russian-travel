@@ -6,9 +6,15 @@
 	flex-flow: column;
 	justify-content: center;
 	align-items: center;
-	
-	/*pointer-events: none;*/
 
 	width: 1184px;
 	height: 740px;
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+	.cover__background{
+		width: clamp(1024px, 95vw, 1184px);
+		height: clamp(640px, 60vw, 740px);
+	}
 }

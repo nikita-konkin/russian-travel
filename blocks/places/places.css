@@ -2,5 +2,16 @@
 	margin: 92px 148px 0 148px;
 	display: grid;
 	grid-row-gap: 80px;
+
+	max-width: 984px;
+	width: 100%;
 	
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+	.places{
+		margin-left: clamp(48px, 4%, 148px);
+		margin-right: clamp(48px, 4%, 148px);
+		width: clamp(928px, 90vw ,984px);
+	}
 }

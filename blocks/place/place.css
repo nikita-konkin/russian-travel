@@ -3,10 +3,12 @@
 	grid-template-columns: auto min-content;
 	grid-template-rows: auto auto 1fr;
 	grid-column-gap: 40px;
-/*	grid-template-areas: 
-	".place__title .place__website"
-	".place__image .place__paragraph"
-	".place__image .place__paragraph"
-	".place__image .place__paragraph";*/
 
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+	.place{
+		grid-template-columns: clamp(440px, 40vw, 460px) min-content;
+		grid-column-gap: clamp(32px, 3vw, 40px);
+	}
 }

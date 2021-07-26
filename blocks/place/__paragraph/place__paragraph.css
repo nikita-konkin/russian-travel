@@ -1,10 +1,25 @@
-.place__paragraph{
+.place__paragraph:nth-child(even){
 	margin: 0;
 	margin-bottom: 26px;
 	/*grid-row: 2/3;*/
 	grid-column: 2;
 
-	width: 484px;
+	max-width: 484px;
+	width: 100%;
+
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 163%;
+}
+.place__paragraph:nth-child(odd){
+	margin: 0;
+	margin-bottom: auto;
+	/*grid-row: 2/3;*/
+	grid-column: 2;
+
+	max-width: 484px;
+	width: 100%;
 
 	font-style: normal;
 	font-weight: normal;
