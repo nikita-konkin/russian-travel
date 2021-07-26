@@ -18,3 +18,16 @@
 	z-index: 0;
 }
 
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+	.cover__overlay{
+		width: clamp(1024px, 95vw, 1184px);
+		height: clamp(640px, 60vw, 740px);
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.cover__overlay{
+		width: clamp(768px, 95vw, 1024px);
+		height: clamp(480px, 60vw, 640px);
+	}
+}

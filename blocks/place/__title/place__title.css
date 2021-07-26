@@ -2,10 +2,18 @@
 	margin: 0;
 	margin-bottom: 48px;
 
-	width: 460px;
+	max-width: 460px;
+	width: 100%;
 
 	font-style: normal;
 	font-weight: 900;
 	font-size: 72px;
 	line-height: 76px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.place__title{
+		font-size: clamp(42px, 5vw, 72px);
+		line-height:clamp(46px, 5vw, 76px);
+	}
 }

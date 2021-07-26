@@ -18,3 +18,10 @@
 		height: clamp(640px, 60vw, 740px);
 	}
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.cover__background{
+		width: clamp(768px, 99vw, 1024px);
+		height: clamp(480px, 60vw, 640px);
+	}
+}

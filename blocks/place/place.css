@@ -6,9 +6,16 @@
 
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
 	.place{
-		grid-template-columns: clamp(440px, 40vw, 460px) min-content;
+		grid-template-columns: clamp(440px, 40vw, 460px) clamp(456px, 40vw, 484px);
 		grid-column-gap: clamp(32px, 3vw, 40px);
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.place{
+		grid-template-columns: clamp(340px, 40vw, 440px) clamp(352px, 40vw, 456px);
+		grid-column-gap: clamp(28px, 3vw, 32px);
 	}
 }

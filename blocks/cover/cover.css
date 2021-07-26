@@ -2,3 +2,9 @@
 	margin: 92px 48px 0 48px;
 
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.cover{
+		margin: clamp(62px, 7vw, 92px) 0 0 0;
+	}
+}

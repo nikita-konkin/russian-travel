@@ -20,7 +20,7 @@
 
 @media screen and (max-width: 768px) {
 	.lang-link_language_ru{
-		margin: clamp(30px, 5vw, 46px) 18px 0px 0;
+		/*margin: clamp(30px, 5vw, 46px) 18px 0px 0;*/
 		font-size: clamp(18px, 5vw, 24px);
 		line-height: clamp(20px, 5vw, 28px);
 	}

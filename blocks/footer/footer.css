@@ -3,3 +3,9 @@
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.footer{
+		margin: clamp(88px, 11vw, 92px) clamp(24px, 3vw, 48px) 24px clamp(24px, 3vw, 48px);
+	}
+}
