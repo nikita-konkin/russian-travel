@@ -1,16 +1,6 @@
 .header__language_en{
 	margin: 46px 0 0px 0;
-	padding: 0;
-	border: none;
-	background: #2A2C2F;
 
-	width: 29px;
-
-	font-family: Inter;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 24px;
-	line-height: 28px;
 }
 
 .header__language_en:focus{
