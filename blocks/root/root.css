@@ -1,11 +1,13 @@
 .root{
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
   width: 100%;
 
 
   background: #2A2C2F;
 
-  margin: 0;
+
 
   overflow:hidden;
 
@@ -19,7 +21,7 @@
 
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1280px){
+/*@media screen and (min-width: 1024px) and (max-width: 1279px){
   .root{
     width: clamp(1024px, 100vw, 1280px);
   }
@@ -28,4 +30,4 @@
   .root{
     width: clamp(768px, 100vw, 1023px);
   }
-}
+}*/
