@@ -3,6 +3,7 @@
 	margin-bottom: 12px;
 
 	max-width: 456px;
+	width: 100%;
 
 	font-style: normal;
 	font-weight: normal;
@@ -10,4 +11,5 @@
 	line-height: 12px;
 
 	letter-spacing: 2px;
+	color: white;
 }

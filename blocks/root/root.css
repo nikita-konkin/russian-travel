@@ -4,12 +4,9 @@
   box-sizing: border-box;
   width: 100%;
 
-
   background: #2A2C2F;
 
-
-
-  overflow:hidden;
+  /*overflow:hidden;*/
 
   font-family: Inter, Arial, sans-serif;
   text-rendering: optimizeLegibility;
@@ -30,4 +27,13 @@
   .root{
     width: clamp(768px, 100vw, 1023px);
   }
+}*/
+
+/*@media screen and (min-width: 320px) and (max-width: 767px) {
+  .places{
+
+    width: clamp(320px, 90vw, 768px);
+
+  }
+    
 }*/

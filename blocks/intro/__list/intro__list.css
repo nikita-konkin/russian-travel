@@ -4,13 +4,15 @@
 
 	list-style-type: none;
 
-	width: 690px;
-
+	max-width: 690px;
+	width: 100%;
 
 	font-style: normal;
 	font-weight: bold;
 	font-size: 12px;
 	line-height: 18px;
+
+	color: white;
 }
 
 @media screen and (min-width: 1280px){
