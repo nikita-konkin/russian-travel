@@ -1,6 +1,6 @@
 
 .cover__overlay{
-	background: linear-gradient(rgba(42, 44, 47, .8), rgba(42, 44, 47, .8)), url("../../../images/cover-trains.jpg");
+	background: linear-gradient(rgba(42, 44, 47, .3), rgba(42, 44, 47, .3)), url("../../../images/cover-trains.jpg");
 	background-size: cover;
 	object-fit: fill;
 	text-align: center;
@@ -27,23 +27,23 @@
 
 @keyframes overlay_anim {
 	0% {
-		background: linear-gradient(rgba(42, 44, 47, .3), rgba(42, 44, 47, .7)), url("../../../images/cover-trains.jpg");
+		background: linear-gradient(rgba(42, 44, 47, .4), rgba(42, 44, 47, .4)), url("../../../images/cover-trains.jpg");
 		background-size: cover;
 	}
 	25%{
-		background: linear-gradient(rgba(42, 44, 47, .3), rgba(42, 44, 47, .6)), url("../../../images/cover-trains.jpg");
+		background: linear-gradient(rgba(42, 44, 47, .5), rgba(42, 44, 47, .5)), url("../../../images/cover-trains.jpg");
 		background-size: cover;
 	}
 	50%{
-		background: linear-gradient(rgba(42, 44, 47, .3), rgba(42, 44, 47, .5)), url("../../../images/cover-trains.jpg");
+		background: linear-gradient(rgba(42, 44, 47, .6), rgba(42, 44, 47, .6)), url("../../../images/cover-trains.jpg");
 		background-size: cover;
 	}
 	75%{
-		background: linear-gradient(rgba(42, 44, 47, .3), rgba(42, 44, 47, .4)), url("../../../images/cover-trains.jpg");
+		background: linear-gradient(rgba(42, 44, 47, .7), rgba(42, 44, 47, .7)), url("../../../images/cover-trains.jpg");
 		background-size: cover;
 	}
 	100% {
-		background: linear-gradient(rgba(42, 44, 47, .3), rgba(42, 44, 47, .3)), url("../../../images/cover-trains.jpg");
+		background: linear-gradient(rgba(42, 44, 47, .8), rgba(42, 44, 47, .8)), url("../../../images/cover-trains.jpg");
 		background-size: cover;
 	}
 }
