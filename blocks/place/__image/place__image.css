@@ -13,9 +13,3 @@
 	}
 
 }
-@media screen and (max-width: 319px){
-	.place__image{
-		grid-row: 3;
-	}
-
-}

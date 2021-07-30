@@ -5,7 +5,7 @@
 	width: 100%;
 
 	font-style: normal;
-	font-weight: normal;
+	font-weight: bold;
 	font-size: 16px;
 	line-height: 163%;
 
@@ -14,22 +14,13 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px){
 	.intro__text{
-		width:  clamp(720px, 11vw, 690px);
+		max-width:  720px;
+
 	}
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
 	.intro__text{
-		width:  clamp(288px, 80vw, 720px);
-	}
-}
-@media screen and (max-width: 320px){
-	.intro__text{
-		width: clamp(0px, 80vw, 288px);
+		min-width:  clamp(288px, 80vw, 720px);
 	}
 }
 
-@media screen and (min-width: 1281px){
-	.intro__text{
-		max-width: clamp(690px, 50vw, 984px);
-	}
-}

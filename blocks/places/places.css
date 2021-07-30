@@ -1,6 +1,7 @@
 .places{
 	margin: 92px 148px 0 148px;
 	display: grid;
+	justify-content: center;
 	grid-row-gap: 80px;
 
 	max-width: 984px;

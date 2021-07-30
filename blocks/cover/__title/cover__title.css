@@ -10,15 +10,10 @@
 	font-size: 72px;
 	line-height: 76px;
 
-	z-index: 2;
-}
-.cover__overlay:hover{
-	background: rgba(42, 44, 47 ,0.8);
+	/*z-index: 2;*/
 }
 
-.cover__overlay > .cover__title{
-	pointer-events: auto;
-}
+
 @media screen and (min-width: 1280px){
 	.cover__title{
 		margin-top: 245px;
@@ -45,10 +40,9 @@
 		line-height: clamp(35px, 10vw, 76px);
 
 		max-width: clamp(280px, 88vw, 560px);
-		white-space: pre-line;
 	}
 }
-@media screen and (max-width: 320px){
+/*@media screen and (max-width: 320px){
 	.cover__title{
 		margin-top: 33px;
 
@@ -58,4 +52,4 @@
 		max-width: clamp(0px, 88vw, 280px);
 		white-space: pre-line;
 	}
-}
+}*/

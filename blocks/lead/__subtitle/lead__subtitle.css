@@ -15,8 +15,8 @@
 	.lead__subtitle{
 		margin-top: clamp(16px, 5vw, 32px);
 
-		font-size: clamp(16px, 5vw, 30px);
-		line-height: clamp(20px, 5vw, 36px);
+		font-size: clamp(16px, 1vw, 30px);
+		line-height: clamp(20px, 1vw, 36px);
 	}
 }
 @media screen and (max-width: 320px){
