@@ -32,11 +32,9 @@
 		margin-left: clamp(0px, 0vw, 24px);
 		margin-right: clamp(0px, 0vw, 24px);
 		margin-top: clamp(64px, 19vw, 88px);
-		max-width: clamp(320px, 90vw, 720px);
+		max-width: clamp(320px, 80vw, 720px);
 
 		grid-row-gap: calmp(50px, 15vw, 80px);
-
-		max-width: 320px;
 	}
 		
 }
