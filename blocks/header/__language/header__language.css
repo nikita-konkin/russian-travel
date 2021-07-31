@@ -1,4 +1,5 @@
 .header__language{
+	margin: 46px 0 0px 0;
 	padding: 0;
 	border: none;
 	background: #2A2C2F;
@@ -11,6 +12,8 @@
 	font-size: 24px;
 	line-height: 28px;
 
+	text-decoration: none;
+
 	color: white;
 
 	transition: .5s ease;
@@ -18,4 +21,22 @@
 
 .header__language:hover{
 	opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+	.header__language{
+		font-size: clamp(18px, 5vw, 24px);
+	}
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+	.header__language{
+		line-height: clamp(20px, 5vw, 28px);
+		margin-top: clamp(30px, 9vw, 46px);
+	}
+}
+@media screen and (max-width: 320px){
+	.header__language{
+		line-height: 20px;
+		margin-top: 30px;
+	}
 }

@@ -16,40 +16,21 @@
 }
 
 .place__paragraph:nth-child(even){
-	margin: 0;
 	margin-bottom: 26px;
-
-}
-.place__paragraph:nth-child(odd){
-	margin: 0;
-	margin-bottom: 0;
 
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-
-	.place__paragraph:nth-child(even){
+	.place__paragraph{
 		font-size: clamp(16px, 2vw, 18px);
+	}
+	.place__paragraph:nth-child(even){	
 		margin-bottom: 25px;
 	}
-	.place__paragraph:nth-child(odd){
-		font-size: clamp(16px, 2vw, 18px);
-	}
+
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
-	.place__paragraph:nth-child(even){
-		grid-column: 1;
-
-		font-size: 16px;
-
-		margin-top: 32px;
-		margin-left: 16px;
-		margin-right: 16px;
-		margin-bottom: 25px;
-
-		max-width: clamp(288px, 80vw, 484px);
-	}
-	.place__paragraph:nth-child(odd){
+	.place__paragraph{
 		grid-column: 1;
 
 		font-size: 16px;
@@ -59,28 +40,11 @@
 
 		max-width: clamp(288px, 80vw, 484px);
 	}
-}
-@media screen and (max-width: 319px){
 	.place__paragraph:nth-child(even){
-		grid-column: 1;
-
-		font-size: 16px;
 
 		margin-top: 32px;
-		margin-left: 16px;
-		margin-right: 16px;
 		margin-bottom: 25px;
 
-		max-width: clamp(0px, 70vw,288px);
 	}
-	.place__paragraph:nth-child(odd){
-		grid-column: 1;
 
-		font-size: 16px;
-
-		margin-left: 16px;
-		margin-right: 16px;
-
-		max-width: clamp(0px, 70vw,288px);
-	}
 }

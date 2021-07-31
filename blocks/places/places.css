@@ -35,10 +35,12 @@
 		max-width: clamp(320px, 90vw, 720px);
 
 		grid-row-gap: calmp(50px, 15vw, 80px);
+
+		max-width: 320px;
 	}
 		
 }
-@media screen and (max-width: 320px){
+@media screen and (max-width: 319px){
 	.places{
 		margin-left: 0;
 		margin-right: 0;

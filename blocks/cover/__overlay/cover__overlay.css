@@ -25,6 +25,38 @@
 
 }
 
+@media screen and (min-width: 1280px){
+	.cover__overlay{
+		/*max-width: 1184px;*/
+		min-height: 740px;
+	}
+}
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+	.cover__overlay{
+		max-width: clamp(1024px, 90vw, 1184px);
+		min-height: clamp(640px, 50vw, 740px);
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.cover__overlay{
+		max-width: clamp(768px, 90vw, 1024px);
+		min-height: clamp(480px, 50vw, 640px);
+	}
+}
+@media screen and (min-width: 320px) and (max-width: 767px){
+	.cover__overlay{
+		max-width: clamp(320px, 100vw, 768px);
+		min-height: clamp(200px, 70vw, 480px);
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.cover__overlay{
+		max-width: clamp(0px, 100vw, 320px);
+		min-height: clamp(0px, 70vw, 200px);
+	}
+}
+
 @keyframes overlay_anim {
 	0% {
 		background: linear-gradient(rgba(42, 44, 47, .4), rgba(42, 44, 47, .4)), url("../../../images/cover-trains.jpg");
