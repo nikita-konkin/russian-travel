@@ -23,6 +23,11 @@
 	opacity: 0.8;
 }
 
+.header__language:nth-child(odd){
+	margin-right: 26px;
+
+}
+
 @media screen and (max-width: 768px) {
 	.header__language{
 		font-size: clamp(18px, 5vw, 24px);
